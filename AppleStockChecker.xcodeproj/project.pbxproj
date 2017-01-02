@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B36A7C5D1E176A7900F6F618 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36A7C5C1E176A7900F6F618 /* main.swift */; };
+		B3AA28D31E1789D200B0C347 /* DBZ_UniversalNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA28D21E1789D200B0C347 /* DBZ_UniversalNetworking.swift */; };
+		B3AA28D51E178B6600B0C347 /* StockCheckerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA28D41E178B6600B0C347 /* StockCheckerItem.swift */; };
+		B3AA28D71E178D0600B0C347 /* StockCheckerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA28D61E178D0600B0C347 /* StockCheckerManager.swift */; };
+		B3AA28D91E19E3D700B0C347 /* StockCheckerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA28D81E19E3D700B0C347 /* StockCheckerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		B36A7C591E176A7900F6F618 /* AppleStockChecker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleStockChecker; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36A7C5C1E176A7900F6F618 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3AA28D21E1789D200B0C347 /* DBZ_UniversalNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBZ_UniversalNetworking.swift; sourceTree = "<group>"; };
+		B3AA28D41E178B6600B0C347 /* StockCheckerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCheckerItem.swift; sourceTree = "<group>"; };
+		B3AA28D61E178D0600B0C347 /* StockCheckerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCheckerManager.swift; sourceTree = "<group>"; };
+		B3AA28D81E19E3D700B0C347 /* StockCheckerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCheckerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		B36A7C5B1E176A7900F6F618 /* AppleStockChecker */ = {
 			isa = PBXGroup;
 			children = (
+				B3AA28D21E1789D200B0C347 /* DBZ_UniversalNetworking.swift */,
 				B36A7C5C1E176A7900F6F618 /* main.swift */,
+				B3AA28D41E178B6600B0C347 /* StockCheckerItem.swift */,
+				B3AA28D61E178D0600B0C347 /* StockCheckerManager.swift */,
+				B3AA28D81E19E3D700B0C347 /* StockCheckerStore.swift */,
 			);
 			path = AppleStockChecker;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AA28D71E178D0600B0C347 /* StockCheckerManager.swift in Sources */,
+				B3AA28D51E178B6600B0C347 /* StockCheckerItem.swift in Sources */,
+				B3AA28D31E1789D200B0C347 /* DBZ_UniversalNetworking.swift in Sources */,
+				B3AA28D91E19E3D700B0C347 /* StockCheckerStore.swift in Sources */,
 				B36A7C5D1E176A7900F6F618 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +269,7 @@
 				B36A7C621E176A7900F6F618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
